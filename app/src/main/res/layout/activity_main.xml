@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="10dp"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="527dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="40pt"
+                android:layout_height="15pt"
+                android:text="time" />
+
+            <TextView
+                android:id="@+id/time_val"
+                android:layout_width="50pt"
+                android:layout_height="15pt"
+                android:text="TextView" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="15pt">
+
+            <TextView
+                android:id="@+id/accel_x"
+                android:layout_width="40pt"
+                android:layout_height="15pt"
+                android:text="accel_x" />
+
+            <TextView
+                android:id="@+id/accel_val_x"
+                android:layout_width="50pt"
+                android:layout_height="15pt"
+                android:text="TextView"
+                app:layout_constraintStart_toEndOf="@+id/accel_x"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/vel_x"
+                android:layout_width="40pt"
+                android:layout_height="15pt"
+                android:text="vel_x" />
+
+            <TextView
+                android:id="@+id/vel_val_x"
+                android:layout_width="50pt"
+                android:layout_height="15pt"
+                android:text="TextView" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="15pt">
+
+            <TextView
+                android:id="@+id/accel_y"
+                android:layout_width="40pt"
+                android:layout_height="15pt"
+                android:text="accel_y"
+                app:layout_constraintTop_toBottomOf="@+id/accel_x"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/accel_val_y"
+                android:layout_width="50pt"
+                android:layout_height="15pt"
+                android:text="TextView"
+                app:layout_constraintStart_toEndOf="@+id/accel_y"
+                app:layout_constraintTop_toBottomOf="@+id/accel_val_x" />
+
+            <TextView
+                android:id="@+id/vel_y"
+                android:layout_width="40pt"
+                android:layout_height="15pt"
+                android:text="vel_y" />
+
+            <TextView
+                android:id="@+id/vel_val_y"
+                android:layout_width="50pt"
+                android:layout_height="15pt"
+                android:text="TextView" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="15pt">
+
+            <TextView
+                android:id="@+id/accel_z"
+                android:layout_width="40pt"
+                android:layout_height="15pt"
+                android:text="accel_z"
+                app:layout_constraintTop_toBottomOf="@+id/accel_y"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/accel_val_z"
+                android:layout_width="50pt"
+                android:layout_height="15pt"
+                android:text="TextView"
+                app:layout_constraintStart_toEndOf="@+id/accel_z"
+                app:layout_constraintTop_toBottomOf="@+id/accel_val_y" />
+
+            <TextView
+                android:id="@+id/vel_z"
+                android:layout_width="40pt"
+                android:layout_height="15pt"
+                android:text="vel_z" />
+
+            <TextView
+                android:id="@+id/vel_val_z"
+                android:layout_width="50pt"
+                android:layout_height="15pt"
+                android:text="TextView" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="15pt">
+
+            <TextView
+                android:id="@+id/pos_x"
+                android:layout_width="40pt"
+                android:layout_height="15pt"
+                android:text="pos_x" />
+
+            <TextView
+                android:id="@+id/pos_val_x"
+                android:layout_width="50pt"
+                android:layout_height="15pt"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/pos_step_x"
+                android:layout_width="40pt"
+                android:layout_height="15pt"
+                android:text="pos_step_x" />
+
+            <TextView
+                android:id="@+id/pos_step_val_x"
+                android:layout_width="50pt"
+                android:layout_height="15pt"
+                android:text="TextView" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="15pt">
+
+            <TextView
+                android:id="@+id/pos_y"
+                android:layout_width="40pt"
+                android:layout_height="15pt"
+                android:text="pos_y" />
+
+            <TextView
+                android:id="@+id/pos_val_y"
+                android:layout_width="50pt"
+                android:layout_height="15pt"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/pos_step_x"
+                android:layout_width="40pt"
+                android:layout_height="15pt"
+                android:text="pos_step_y" />
+
+            <TextView
+                android:id="@+id/pos_step_val_y"
+                android:layout_width="50pt"
+                android:layout_height="15pt"
+                android:text="TextView" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="15pt">
+
+            <TextView
+                android:id="@+id/pos_z"
+                android:layout_width="40pt"
+                android:layout_height="15pt"
+                android:text="pos_z" />
+
+            <TextView
+                android:id="@+id/pos_val_z"
+                android:layout_width="50pt"
+                android:layout_height="15pt"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/step"
+                android:layout_width="40pt"
+                android:layout_height="15pt"
+                android:text="step" />
+
+            <TextView
+                android:id="@+id/step_val"
+                android:layout_width="50pt"
+                android:layout_height="15pt"
+                android:text="TextView" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="15pt">
+
+            <TextView
+                android:id="@+id/dig_gyro_x"
+                android:layout_width="40pt"
+                android:layout_height="15pt"
+                android:text="dig_gyro_x" />
+
+            <TextView
+                android:id="@+id/dig_gyro_val_x"
+                android:layout_width="50pt"
+                android:layout_height="15pt"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/dig_mag_x"
+                android:layout_width="40pt"
+                android:layout_height="15pt"
+                android:text="dig_mag_x"
+                app:layout_constraintTop_toBottomOf="@+id/accel_y"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/dig_mag_val_x"
+                android:layout_width="50pt"
+                android:layout_height="15pt"
+                android:text="TextView"
+                app:layout_constraintTop_toBottomOf="@+id/accel_val_z"
+                tools:layout_editor_absoluteX="167dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="15pt">
+
+            <TextView
+                android:id="@+id/dig_gyro_x"
+                android:layout_width="40pt"
+                android:layout_height="15pt"
+                android:text="dig_gyro_y" />
+
+            <TextView
+                android:id="@+id/dig_gyro_val_y"
+                android:layout_width="50pt"
+                android:layout_height="15pt"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/dig_mag_y"
+                android:layout_width="40pt"
+                android:layout_height="15pt"
+                android:text="dig_mag_y"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="120dp" />
+
+            <TextView
+                android:id="@+id/dig_mag_val_y"
+                android:layout_width="50pt"
+                android:layout_height="15pt"
+                android:text="TextView"
+                app:layout_constraintTop_toBottomOf="@+id/dig_mag_val_x"
+                tools:layout_editor_absoluteX="72dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="15pt">
+
+            <TextView
+                android:id="@+id/dig_gyro_z"
+                android:layout_width="40pt"
+                android:layout_height="15pt"
+                android:text="dig_gyro_z" />
+
+            <TextView
+                android:id="@+id/dig_gyro_val_z"
+                android:layout_width="50pt"
+                android:layout_height="15pt"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/dig_mag_z"
+                android:layout_width="40pt"
+                android:layout_height="15pt"
+                android:text="dig_mag_z"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="150dp" />
+
+            <TextView
+                android:id="@+id/dig_mag_val_z"
+                android:layout_width="50pt"
+                android:layout_height="15pt"
+                android:text="TextView"
+                app:layout_constraintTop_toBottomOf="@+id/dig_mag_val_y"
+                tools:layout_editor_absoluteX="181dp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>

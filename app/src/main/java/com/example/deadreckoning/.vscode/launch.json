@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ParticleFilter",
+            "request": "launch",
+            "mainClass": "com.example.deadreckoning.ParticleFilter"
+        }
+    ]
+}
